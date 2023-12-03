@@ -1,10 +1,10 @@
-#Problem Statement:
+# Problem Statement:
 
 You're tasked with creating data storage solutions using Amazon EBS and EFS for different use cases.
 
-##Guidelines/Goals:
+## Guidelines/Goals:
 
-###Amazon EBS Setup:
+### Amazon EBS Setup:
 
 Create an Amazon EBS volume and attach it to an EC2 instance.
 Format and mount the volume to a specific directory.
@@ -14,7 +14,7 @@ Create a simple text file on the EBS volume.
 Ensure the data persists even if the instance is stopped and started.
 Amazon EFS Setup:
 
-###Amazon EBS Setup:
+### Amazon EBS Setup:
 
 Create an Amazon EFS file system.
 Mount the file system on multiple EC2 instances.
