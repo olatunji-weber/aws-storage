@@ -36,3 +36,5 @@ sudo mount -t efs -o tls fs-07e81bffbc1ad1c53.efs.us-west-2.amazonaws.com:/ ~/ef
 
 #### Unmount the EFS file system:
 sudo unmount ~/efs-mount-point
+
+### Here is the PDF with [Steps Taken and Key Insights](https://github.com/olatunji-weber/aws-storage/blob/master/AWS%20Storage%20Project.pdf):
