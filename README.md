@@ -23,3 +23,16 @@ Use EFS for Shared Data:
 Create a file on one instance and verify its presence on another.
 Observe how changes to the file on one instance are reflected on the other.
 Delete all created resources.
+
+#### Amazon EFS Commands:
+sudo yum -y update
+mkdir ~/efs-mount-point
+
+#### Install EFS utils:
+sudo yum install -y amazon-efs-utils
+
+#### Mount using the EFS mount helper:
+sudo mount -t efs -o tls fs-07e81bffbc1ad1c53.efs.us-west-2.amazonaws.com:/ ~/efs-mount-point
+
+#### Unmount the EFS file system:
+sudo unmount ~/efs-mount-point
